@@ -243,15 +243,15 @@ footer>p{
 /* COURSES PAGE */
 
 
-.courses{
+/* .courses{
     padding-top: 15px;
     padding-bottom: 100px;
-}
+} */
 
-.cards{
+/* .cards{
     padding: 15px 50px;
     text-align: center;
-}
+} */
 
 .level{
     text-align: center;
@@ -263,12 +263,12 @@ footer>p{
     object-fit: cover;
 }
 
-.card-body{
+/* .card-body{
     display: inline-block;
     width: 30%;
     padding: 10px;
     margin: 20px;
-}
+} */
 
 .card-body h2, .card-body p{
     padding: 10px;
@@ -279,7 +279,7 @@ footer>p{
 
 
 
-.container{
+.contenedor{
     margin: auto;
     width: 500px;
     height: 650px;
