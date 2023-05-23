@@ -11,6 +11,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1, h2{
@@ -30,31 +31,52 @@ body{
     padding-bottom: 30px;
 }
 
+
+
 /* BARRA NAV DE LAS PÁGINAS */
 
-.menu-navegador{
+
+
+.navbar, .navbar-expand-lg, .bg-body-tertiary{
+    background-color: #2E88FF !important;
+}
+
+
+.nav-link{
+    font-family: 'Robot Slab', serif;
+    color: yellow;
+}
+
+
+/* .menu-navegador{
     background-color: #2E88FF;
     padding: 20px;
     text-align: center;
-}
+} */
 
-.menu-navegador ul{
+/* .menu-navegador ul{
     list-style-type: none; 
-}
+} */
 
-.menu-navegador ul li{
+/* .menu-navegador ul li{
     display: inline;
     padding: 50px;
-}
+} */
 
-.menu-navegador ul li a{
+/* .menu-navegador ul li a{
     text-decoration: none;
     color: yellow;
     font-size: 24px;
-}
+} */
+
+
+
+
 
 
 /* HOME PAGE */
+
+
 
 .logo{
     text-align: center;
@@ -183,13 +205,17 @@ p{
 
 /* FOOTER */
 
-footer>p{
+footer{
     background-color: #2E88FF;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
+
+
+
+
 
 
 /* ABOUT US PAGE */
