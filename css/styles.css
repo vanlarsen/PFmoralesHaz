@@ -208,15 +208,12 @@ footer{
 
 /* COURSES PAGE */
 
-.card-body img{
+.course__images{
     width: 100%;
     height: 500px;
     object-fit: cover;
 }
 
-.card-body h2, .card-body p{
-    padding: 10px;
-}
 
 
 /* CONTACT PAGE */
