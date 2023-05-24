@@ -226,6 +226,7 @@ footer{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    margin-top: 30px;
 }
 
 
@@ -259,22 +260,19 @@ footer{
 
 
 
-.testimonials{
+/* .testimonials{
     padding-top: 50px;
     padding-bottom: 120px;
     text-align: center;
-}
+} */
 
-.testimonial img{
-    width: 100%;
-    object-fit: cover;
-}
 
-.testimonial{
+
+/* .testimonial{
     display: inline-block;
     width: 50%;
     margin-bottom: 120px;  
-}
+} */
 
 
 
@@ -374,3 +372,12 @@ footer{
     border-radius: 4px;
 
 } */
+
+.contact-button{
+    display: flexbox;
+    text-align: center;
+}
+
+.btn, .btn-primary{
+    background: #2E88FF;
+}
