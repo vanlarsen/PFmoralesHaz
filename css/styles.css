@@ -429,11 +429,11 @@ footer{
 
 /* COURSES PAGE */
 
-.course__images{
+/* .course__images{
     width: 100%;
-    height: 500px;
+    max-height: 100%;
     object-fit: cover;
-}
+} */
 
 
 
