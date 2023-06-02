@@ -57,130 +57,10 @@ body{
 }
 
 
-/* HOME PAGE */
+
+/* HOME PAGE (Se utilizó Bootstrap) */
 
 
-
-
-
-/* .logo{
-    text-align: center;
-    padding: 50px;
-}
-
-.logo-body img{
-    width: 100%;
-    object-fit: cover;
-}
-
-.logo-body img{
-    width: 50%;
-} */
-
-
-
-/* #first-message{
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-} */
-
-
-
-
-
-
-
-
-/* HOME PAGE: VIDEO SECTION */
-
-/* .video-section{
-    padding: 50px 50px;
-    text-align: center;
-} */
-
-/* .video-body iframe{
-    width: 100%;
-    object-fit: cover;
-    padding-top: 10px;
-} */
-
-/* .video-body{
-    display: inline-block;
-    width: 50%;  
-} */
-
-
-/* HOME PAGE: PLACEMENT TEST SECTION */
-
-/* .placement-test-section{
-    padding: 50px 50px;
-    text-align: center;
-} */
-
-/* .placement-test-body img{
-    width: 100%;
-    object-fit: cover;
-    padding-top: 10px;
-} */
-
-/* .placement-test-body{
-    display: inline-block;
-    width: 50%;  
-} */
-
-
-/*HOME PAGE: FIND A COURSE SECTION*/
-
-/* .find-a-course-section{
-    padding: 50px 50px;
-    text-align: center;
-} */
-
-/* .find-a-course-body img{
-    width: 100%;
-    object-fit: cover;
-    padding-top: 10px;
-} */
-
-/* .find-a-course-body{
-    display: inline-block;
-    width: 50%;  
-} */
-
-
-/*HOME PAGE: REASONS SECTION*/
-
-/* #reasons-title{
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
-} */
-
-/* #reasons-image{
-    width: 100%;
-    margin-bottom: 20px;
-} */
-
-/* .reasons-section{
-    padding: 50px 50px;
-    text-align: center;
-} */
-
-/* .reasons-body img{
-    width: 100%;
-    object-fit: cover;
-} */
-
-/* .reasons-body{
-    display: inline-block;
-    width: 50%;  
-    margin-top: 10px;
-} */
-
-/* .reasons-body h2{
-    margin-top: 50px;
-} */
 
 
 /* FOOTER */
@@ -195,29 +75,15 @@ footer{
 }
 
 
-/* ABOUT US PAGE */
-
-.about{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.about-body img{
-    width: 100%;
-    object-fit: cover;
-    padding-top: 10px;
-}
-
-.about-body{
-    display: inline-block;
-    width: 50%;  
-}
-
-
-/* TESTIMONIALS PAGE */
+/* ABOUT US PAGE (Se utilizó Bootstrap)*/
 
 
 
+
+
+
+
+/* TESTIMONIALS PAGE (Se utilizó grid de CSS)*/
 
 /* Grilla padre */
 
@@ -248,7 +114,6 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;   
-    /* border: 3px solid green; */
 }
 
 .grilla__hijo img{
@@ -427,13 +292,8 @@ footer{
 
 
 
-/* COURSES PAGE */
+/* COURSES PAGE (Se utilizó Bootstrap) */
 
-/* .course__images{
-    width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-} */
 
 
 
