@@ -71,9 +71,8 @@ footer {
   align-items: center;
   justify-items: center;
   place-items: center;
+  /* Estilos a la grillas hijos */
 }
-
-/* Estilos a la grillas hijos */
 .grilla__hijo {
   width: 50%;
   height: 100%;
@@ -82,8 +81,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-.grilla__hijo img {
+.grilla__hijo hijo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
