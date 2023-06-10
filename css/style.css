@@ -49,6 +49,16 @@ body {
   box-shadow: none !important;
 }
 
+/* FOOTER */
+footer {
+  background-color: #2E88FF;
+  color: white;
+}
+
+.bi-facebook, .bi-twitter, .bi-instagram, .bi-tiktok {
+  color: white;
+}
+
 /* TESTIMONIALS PAGE (Se utilizó grid de CSS)*/
 /* Grilla padre */
 .grilla {

@@ -1,0 +1,66 @@
+/* Tipografía local para los títulos */
+@font-face {
+    font-family: 'Fjalla One', sans-serif;
+    src: url(../assets/FjallaOne-Regular.ttf);
+}
+
+/* Font de Google Fonts para el body */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+}
+
+//TITULOS DE LAS PÁGINAS
+
+.page-title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* BARRA NAV DE LAS PÁGINAS */
+
+.navbar, .navbar-expand-lg, .bg-body-tertiary{
+    background-color: #2E88FF !important;
+}
+
+.nav-link{
+    font-family: 'Robot Slab', serif;
+    color: yellow;
+}
+
+.contenedor-icono-navbar{
+    color: white;
+}
+
+.navbar-toggler{
+    border: 2px solid white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #2E88FF;
+    color: white;
+}
+
+.bi-facebook, .bi-twitter, .bi-instagram, .bi-tiktok {
+    color: white;
+}
+
