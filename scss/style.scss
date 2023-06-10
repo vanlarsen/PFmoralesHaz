@@ -1,9 +1,16 @@
-//IMPORTS BASE
+//BASE IMPORTS
 @import 'base/resets';
 
 
+//COMPONENTS IMPORTS
 
-//IMPORTS LAYOUT
+@import 'components/navbar';
+@import 'components/pageTitles';
+@import 'components/footer';
+
+
+
+//LAYOUT IMPORTS
 
 @import 'layout/testimonials';
 @import 'layout/contact';

@@ -1,0 +1,22 @@
+/* BARRA NAV DE LAS PÁGINAS */
+
+.navbar, .navbar-expand-lg, .bg-body-tertiary{
+    background-color: #2E88FF !important;
+}
+
+.nav-link{
+    font-family: 'Robot Slab', serif;
+    color: yellow;
+}
+
+.contenedor-icono-navbar{
+    color: white;
+}
+
+.navbar-toggler{
+    border: 2px solid white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}

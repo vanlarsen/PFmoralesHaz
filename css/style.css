@@ -21,12 +21,6 @@ body {
   font-size: 22px;
 }
 
-.page-title {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 /* BARRA NAV DE LAS PÁGINAS */
 .navbar, .navbar-expand-lg, .bg-body-tertiary {
   background-color: #2E88FF !important;
@@ -47,6 +41,12 @@ body {
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+.page-title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* FOOTER */
