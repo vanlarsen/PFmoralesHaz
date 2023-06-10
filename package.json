@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3",
+  "version": "1.0.0",
+  "description": "Repositorio donde se utilizó SASS y SEO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanlarsen/preEntrega3MoralesHaz.git"
+  },
+  "author": "Manuel Morales Haz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanlarsen/preEntrega3MoralesHaz/issues"
+  },
+  "homepage": "https://github.com/vanlarsen/preEntrega3MoralesHaz#readme"
+}
