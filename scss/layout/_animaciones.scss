@@ -6,11 +6,9 @@
     }
 }
 
-
 .animated-image{
     transition: 1s;
     &:hover{
         transform: scale(1.05);
-
     }
 }
