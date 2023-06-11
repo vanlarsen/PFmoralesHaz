@@ -1,0 +1,25 @@
+//MIXIN SIN PARAMETROS
+@mixin grid{
+    display:grid;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-items: center;  
+    place-items: center;
+}
+
+//MIXIN CON PARAMETROS
+@mixin flexbox($width,$height,$flex-direction,$align-items,$justify-content){
+    width:$width;
+    height: $height;
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content: $justify-content; 
+}
+
+@mixin images ($width,$height,$object-fit){
+    width: $width;  
+    height: $height; 
+    object-fit: $object-fit;
+}

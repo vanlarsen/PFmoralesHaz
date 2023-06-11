@@ -14,11 +14,11 @@
 }
 
 h1, h2{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: $h1-h2-font;
 }
 
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: $body-font;
     font-size: 22px;
 }
 
