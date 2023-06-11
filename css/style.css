@@ -99,6 +99,16 @@ footer {
   grid-area: area3;
 }
 
+/* CONTACT PAGE */
+.form-label {
+  text-align: left;
+}
+
+.btn, .btn-primary {
+  background: #2E88FF;
+  border-color: #2E88FF;
+}
+
 /* Media queries */
 @media only screen and (max-width: 1400px) {
   .grilla {
@@ -230,14 +240,18 @@ footer {
     object-fit: cover;
   }
 }
-/* CONTACT PAGE */
-.form-label {
-  text-align: left;
+.logo {
+  transition: 1s;
+}
+.logo:hover {
+  transform: rotate(360deg);
 }
 
-.btn, .btn-primary {
-  background: #2E88FF;
-  border-color: #2E88FF;
+.animated-image {
+  transition: 1s;
+}
+.animated-image:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=style.css.map */

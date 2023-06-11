@@ -1,0 +1,108 @@
+/* Media queries */
+
+@media only screen and (max-width: 1400px){
+
+    .grilla{
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:            
+            'area1 area1'  
+            'area2 area2'
+            'area3 area3'
+            ;
+        @include grid;
+        
+        &__hijo{
+            @include flexbox(50%, 100%, column, center, center);
+
+            img{
+                @include images(100%,100%,cover);
+            }   
+        }   
+    }
+}
+
+@media only screen and (max-width: 1200px){
+
+    .grilla{
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:            
+            'area1 area1'  
+            'area2 area2'
+            'area3 area3'
+            ;
+        @include grid;  
+
+        &__hijo{
+            @include flexbox(50%, 100%, column, center, center);
+            
+            img{
+                @include images(100%,100%,cover);
+            }    
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+    .grilla{
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:            
+            'area1 area1'  
+            'area2 area2'
+            'area3 area3'
+            ;
+        @include grid;
+        &__hijo{
+            @include flexbox(50%, 100%, column, center, center);
+            img{
+                @include images(100%,100%,cover);
+            }   
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .grilla{
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:            
+            'area1 area1'  
+            'area2 area2'
+            'area3 area3'
+            ;
+        @include grid;  
+        &__hijo{
+            @include flexbox(50%, 100%, column, center, center);
+            img{
+                @include images(100%,100%,cover);
+            }  
+        }
+    }
+}
+
+@media only screen and (max-width: 576px){
+
+    .grilla{
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:            
+            'area1'  
+            'area2'
+            'area3'
+            ;
+        @include grid;   
+        &__hijo{
+            @include flexbox(70%, 100%, column, center, center);
+            img{
+                @include images(100%,100%,cover);
+            }   
+        }
+    }
+}
+
