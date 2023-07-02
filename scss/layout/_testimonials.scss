@@ -7,6 +7,7 @@
     grid-template-rows: repeat(1, auto);
     grid-template-areas:            
         'area7 area1 area2 area 8'  
+        'area9 area3 area4 area 10'  
         ;
     @include grid;
     &__hijo{
@@ -36,11 +37,29 @@
     grid-area: area2;  
 }
 
+.g3{
+    grid-area: area3;  
+}
+
+.g4{
+    grid-area: area4;  
+}
+
+
+
+//Grillas en blanco
+
 .g7{
     grid-area: area7;  
 }
 .g8{
     grid-area: area8;  
+}
+.g9{
+    grid-area: area9;  
+}
+.g10{
+    grid-area: area10;  
 }
 
 
