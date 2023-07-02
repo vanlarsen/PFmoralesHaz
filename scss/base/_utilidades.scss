@@ -6,6 +6,7 @@
     align-items: center;
     justify-items: center;  
     place-items: center;
+    row-gap: 70px;
 }
 
 //MIXIN CON PARAMETROS
@@ -16,6 +17,7 @@
     flex-direction: $flex-direction;
     align-items: $align-items;
     justify-content: $justify-content; 
+    
 }
 
 @mixin images ($width,$height,$object-fit){

@@ -63,14 +63,15 @@ footer {
 /* Grilla padre */
 .grilla {
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, auto);
-  grid-template-areas: "area7 area1 area2 area 8" "area9 area3 area4 area 10";
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "area7 area1 area2 area8" "area9 area3 area4 area10" "area11 area5 area6 area12";
   display: grid;
   gap: 15px;
   padding: 15px;
   align-items: center;
   justify-items: center;
   place-items: center;
+  row-gap: 70px;
 }
 .grilla__hijo {
   width: 100%;
@@ -111,6 +112,14 @@ footer {
   grid-area: area4;
 }
 
+.g5 {
+  grid-area: area5;
+}
+
+.g6 {
+  grid-area: area6;
+}
+
 .g7 {
   grid-area: area7;
 }
@@ -125,6 +134,14 @@ footer {
 
 .g10 {
   grid-area: area10;
+}
+
+.g11 {
+  grid-area: area11;
+}
+
+.g12 {
+  grid-area: area12;
 }
 
 /* CONTACT PAGE */
@@ -149,6 +166,7 @@ footer {
     align-items: center;
     justify-items: center;
     place-items: center;
+    row-gap: 70px;
   }
   .grilla__hijo {
     width: 50%;
@@ -175,6 +193,7 @@ footer {
     align-items: center;
     justify-items: center;
     place-items: center;
+    row-gap: 70px;
   }
   .grilla__hijo {
     width: 50%;
@@ -201,6 +220,7 @@ footer {
     align-items: center;
     justify-items: center;
     place-items: center;
+    row-gap: 70px;
   }
   .grilla__hijo {
     width: 50%;
@@ -227,6 +247,7 @@ footer {
     align-items: center;
     justify-items: center;
     place-items: center;
+    row-gap: 70px;
   }
   .grilla__hijo {
     width: 50%;
@@ -253,6 +274,7 @@ footer {
     align-items: center;
     justify-items: center;
     place-items: center;
+    row-gap: 70px;
   }
   .grilla__hijo {
     width: 70%;
