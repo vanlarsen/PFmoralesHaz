@@ -62,7 +62,7 @@ footer {
 /* TESTIMONIALS PAGE (Se utilizó grid de CSS)*/
 /* Grilla padre */
 .grilla {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 2fr 4fr 4fr 2fr;
   grid-template-rows: repeat(3, auto);
   grid-template-areas: "area7 area1 area2 area8" "area9 area3 area4 area10" "area11 area5 area6 area12";
   display: grid;
@@ -157,9 +157,9 @@ footer {
 /* Media queries */
 @media only screen and (max-width: 1400px) {
   .grilla {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(10%, 2fr) 4fr 4fr minmax(10%, 2fr);
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: "area1 area1" "area2 area2" "area3 area3";
+    grid-template-areas: "area7 area1 area2 area8" "area9 area3 area4 area10" "area11 area5 area6 area12";
     display: grid;
     gap: 15px;
     padding: 15px;
@@ -169,24 +169,32 @@ footer {
     row-gap: 70px;
   }
   .grilla__hijo {
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .grilla__hijo__nieto {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .grilla__hijo img {
+  .grilla__hijo__nieto img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1355px) {
   .grilla {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(10%, 20%) 2fr minmax(10%, 20%);
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: "area1 area1" "area2 area2" "area3 area3";
+    grid-template-areas: "area7 area1 area8" "area7 area2 area8" "area7 area3 area8" "area7 area4 area8" "area7 area5 area8" "area7 area6 area8";
     display: grid;
     gap: 15px;
     padding: 15px;
@@ -196,14 +204,22 @@ footer {
     row-gap: 70px;
   }
   .grilla__hijo {
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .grilla__hijo__nieto {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .grilla__hijo img {
+  .grilla__hijo__nieto img {
     width: 100%;
     height: 100%;
     object-fit: cover;
