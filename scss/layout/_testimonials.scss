@@ -20,6 +20,10 @@
             img{
                 @include images(100%,100%,cover);
             }  
+
+            &__bisnieto {
+                @include flexbox(100%,auto,row,center,end)
+            }    
         }    
     }
 }

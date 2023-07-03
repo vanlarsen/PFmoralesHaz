@@ -20,6 +20,10 @@
                 img{
                     @include images(100%,100%,cover);
                 }  
+    
+                &__bisnieto {
+                    @include flexbox(100%,auto,row,center,end)
+                }    
             }    
         }
     }
@@ -46,13 +50,17 @@
                 img{
                     @include images(100%,100%,cover);
                 }  
+    
+                &__bisnieto {
+                    @include flexbox(100%,auto,row,center,end)
+                }    
             }    
         }
     }
 }
 
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1150px){
 
     .grilla{
         grid-template-columns: 10% 2fr 2fr 10%; 
@@ -74,42 +82,19 @@
                 img{
                     @include images(100%,100%,cover);
                 }  
+    
+                &__bisnieto {
+                    @include flexbox(100%,auto,row,center,end)
+                }     
             }    
         }
     }
 }
 
 
-// @media only screen and (max-width: 1080px){
 
-//     .grilla{
-//         grid-template-columns: minmax(5%, 1fr) 6fr minmax(5%, 1fr); 
-//         grid-template-rows: repeat(6, auto);
-//         grid-template-areas:            
-//         'area7 area1 area8'  
-//         'area7 area2 area8'  
-//         'area7 area3 area8'  
-//         'area7 area4 area8'  
-//         'area7 area5 area8'  
-//         'area7 area6 area8'  
-        
-//         ;
-//         @include grid;
-//         &__hijo{
-//             @include flexbox(100%, 100%, row, center, center);
-                    
-//             &__nieto{
-//                 @include flexbox(100%, 100%, column, center, center);
-            
-//                 img{
-//                     @include images(100%,100%,cover);
-//                 }  
-//             }    
-//         }
-//     }
-// }
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 1090px){
 
     .grilla{
         grid-template-columns: minmax(5%, 1fr) 6fr minmax(5%, 1fr); 
@@ -133,6 +118,10 @@
                 img{
                     @include images(100%,100%,cover);
                 }  
+    
+                &__bisnieto {
+                    @include flexbox(100%,auto,row,center,end)
+                }     
             }    
         }
     }
@@ -163,6 +152,10 @@
                 img{
                     @include images(100%,100%,cover);
                 }  
+    
+                &__bisnieto {
+                    @include flexbox(100%,auto,row,center,end)
+                }    
             }    
         }
     }
